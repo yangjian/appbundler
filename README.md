@@ -10,7 +10,7 @@ With this change, you can pass commane line arguments to the Java application li
      
 Or open the application with arguments:
 
-     open PATH_TO_THE_APP p[--args args1 ...]
+     open PATH_TO_THE_APP [--args args1 ...]
      
 You can also pass arguments to the Java application with [NSWorkSpace](https://developer.apple.com/library/mac/documentation/cocoa/reference/applicationkit/classes/nsworkspace_class/reference/reference.html) API
 
