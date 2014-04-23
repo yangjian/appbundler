@@ -16,7 +16,7 @@ You can also pass arguments to the Java application with [NSWorkSpace](https://d
 
 	NSURL *appURL = URL_OF_THE_APP;
 	
-    NSDictionary *dict = nil;
+    NSMutableDictionary *dict = nil;
 	// prepare the arguments and write them into dict ...
 	
     NSWorkspace *workspace = [NSWorkspace sharedWorkspace];
